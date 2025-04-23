@@ -1,0 +1,75 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ff6200;
+}
+
+.timer {
+    font-size: 24px;
+    color: #ff6200;
+}
+
+.map-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.map-slot {
+    display: flex;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.map-image {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.map-name {
+    flex-grow: 1;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ban-button {
+    background-color: transparent;
+    border: 2px solid #ff6200;
+    color: #ff6200;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.ban-button:hover {
+    background-color: #ff6200;
+    color: #fff;
+}
